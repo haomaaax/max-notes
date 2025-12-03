@@ -1,0 +1,5 @@
+baseURL = 'https://sparkler.club'
+languageCode = 'en-us'
+title = 'Max notes'
+theme = 'PaperMod'
+publishDir = 'public'
