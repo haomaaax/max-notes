@@ -13,7 +13,6 @@ This is my first blog post on hugo.
 
 **BOLD**
 
-**
-**
-
 ***testing is good***
+
+testing auto-deployment
