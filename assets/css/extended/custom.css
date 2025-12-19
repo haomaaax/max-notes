@@ -31,7 +31,8 @@
   --mac-white: #E8E8E8;
   --mac-paper: #1A1A1A;
   --mac-gray-light: #2A2A2A;
-  --mac-blue: #4A90E2;
+  --mac-blue: #5BA3F5;
+  --mac-blue-hover: #4A90E2;
 
   --theme: var(--mac-black);
   --entry: var(--mac-paper);
@@ -118,17 +119,28 @@ code, pre, kbd, samp, tt {
 }
 
 /* Links - Classic Mac blue with underline */
-.post-content a,
-a:not(.logo) {
+/* Only apply to content links, not navigation/UI */
+.post-content a {
   color: var(--mac-blue) !important;
   text-decoration: none !important;
   border-bottom: 1px solid var(--mac-blue) !important;
   transition: border-color 0.12s ease;
 }
 
-.post-content a:hover,
-a:not(.logo):hover {
+.post-content a:hover {
   border-bottom-color: transparent !important;
+}
+
+/* Navigation links - no underline */
+.logo,
+.main-inner a,
+header a,
+nav a,
+.top-link,
+.paginav a,
+.post-tags a,
+.share-buttons a {
+  border-bottom: none !important;
 }
 
 /* Lists */
