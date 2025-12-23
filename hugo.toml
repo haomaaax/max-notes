@@ -19,9 +19,7 @@ enableRobotsTXT = true
 # Site Parameters
 [params]
   description = "Personal blog by Max Chen - thoughts on running, chess, AI, and life"
-
-[params.author]
-  name = "Max Chen"
+  author = "Max Chen"
 
 # Output Formats
 [outputs]
