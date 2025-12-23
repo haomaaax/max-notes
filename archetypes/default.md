@@ -1,5 +1,11 @@
 +++
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
 draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+description = ''
+summary = ''
+keywords = []
+tags = []
+author = 'Max Chen'
+slug = '{{ .File.ContentBaseName }}'
 +++

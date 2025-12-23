@@ -1,0 +1,42 @@
+{{- /* AI-Friendly Meta Tags */ -}}
+
+{{- if .IsPage }}
+  {{- /* Enhanced Description */ -}}
+  {{- with .Description }}
+    <meta name="description" content="{{ . | truncate 160 }}">
+  {{- else }}
+    <meta name="description" content="{{ .Summary | plainify | truncate 160 }}">
+  {{- end }}
+
+  {{- /* Article-specific meta tags */ -}}
+  <meta name="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">
+  <meta name="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+
+  {{- with .Params.author | default site.Params.author.name }}
+    <meta name="article:author" content="{{ . }}">
+  {{- end }}
+
+  {{- /* Keywords */ -}}
+  {{- with .Params.keywords }}
+    <meta name="keywords" content="{{ delimit . ", " }}">
+  {{- else }}
+    {{- with .Params.tags }}
+      <meta name="keywords" content="{{ delimit . ", " }}">
+    {{- end }}
+  {{- end }}
+
+  {{- /* AI-specific meta tags for better content accessibility */ -}}
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  {{- /* Reading time for AI context */ -}}
+  <meta name="reading-time" content="{{ .ReadingTime }}">
+
+  {{- /* Content type hints */ -}}
+  <meta property="article:content_tier" content="free">
+  <meta property="article:opinion" content="false">
+
+{{- end }}
+
+{{- /* Site-wide AI hints */ -}}
+<meta name="content-language" content="{{ .Language.Lang | default "en" }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.Title }} RSS Feed" href="{{ "index.xml" | absURL }}">

@@ -3,3 +3,27 @@ languageCode = 'en-us'
 title = 'Max notes'
 theme = 'PaperMod'
 publishDir = 'public'
+
+# Enable robots.txt generation
+enableRobotsTXT = true
+
+# RSS Configuration
+[services.rss]
+  limit = 50
+
+# Sitemap Configuration
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+# Site Parameters
+[params]
+  description = "Personal blog by Max Chen - thoughts on running, chess, AI, and life"
+
+[params.author]
+  name = "Max Chen"
+
+# Output Formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
