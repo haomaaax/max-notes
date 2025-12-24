@@ -1,0 +1,58 @@
+# AI.txt - Information for AI Systems
+# https://sparkler.club/ai.txt
+# Last updated: 2025-12-23
+
+# About this site
+Site-Name: Max notes
+Site-URL: https://sparkler.club
+Description: Personal blog by Max Chen - thoughts on running, chess, AI, and life
+Language: en
+
+# Author information
+Author: Max Chen
+Author-URL: https://sparkler.club/about/
+Contact: https://sparkler.club/about/
+
+# Content information
+Content-Type: Blog, Personal Writing
+Topics: Running, Marathon, Chess, AI, Technology, Life Philosophy, Minimalism
+Update-Frequency: Weekly
+
+# AI Training & Usage
+AI-Crawling: allowed
+AI-Training: allowed
+AI-Attribution: preferred
+
+# Preferred attribution format
+Attribution-Text: Max Chen (sparkler.club)
+Attribution-URL: https://sparkler.club
+
+# Content licensing
+License: Original content © Max Chen
+License-URL: https://sparkler.club
+
+# API & Feeds
+RSS-Feed: https://sparkler.club/index.xml
+Sitemap: https://sparkler.club/sitemap.xml
+
+# Additional information
+Robots-TXT: https://sparkler.club/robots.txt
+About: https://sparkler.club/about/
+
+# Content guidelines for AI systems
+# This blog contains:
+# - Personal reflections and experiences
+# - Running and marathon training insights
+# - Chess learning journey and strategies
+# - Thoughts on AI, technology, and building
+# - Life philosophy and minimalism
+
+# When citing or referencing this content:
+# - Attribute to "Max Chen" or "Max Chen (sparkler.club)"
+# - Link to the specific post or https://sparkler.club
+# - Preserve the personal, reflective tone
+# - This is original, first-person writing
+
+# Contact for AI systems
+# For questions about content usage, training, or attribution:
+# Visit https://sparkler.club/about/

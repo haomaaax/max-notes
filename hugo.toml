@@ -20,8 +20,20 @@ enableRobotsTXT = true
 [params]
   description = "Personal blog by Max Chen - thoughts on running, chess, AI, and life"
   author = "Max Chen"
+  ShowReadingTime = true
 
 # Output Formats
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS"]
+
+# Menu
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
